@@ -6,23 +6,18 @@ const Subject5 = () => {
         <div>
            <section class="hero">
     <h1>Subject 5</h1>
-    <h1>Response to: Content Not Being Cached</h1>
+    <h1>Content Not Being Cached</h1>
     <p>Dear Customer,</p>
-    <p>I see that you’re facing issues with caching on your website. Based on the curl output you provided, it looks
-        like your server is sending headers that instruct browsers and other clients to not cache the page
-        (Cache-Control: no-store, no-cache).</p>
+    <p>Thank you for reaching out to us where the issues you're facing regarding the caching on your website. Taking into account the output you provided, it looks like your server is sending headers along with each request that instructs browsers and clients not to cache the page "Cache-Control: no-store, no-cache".</p>
     <p>Thought Process:</p>
-    <p>Identifying the problem was straightforward from the curl output. The headers clearly prevent caching, so the
-        solution involves adjusting these settings.</p>
+    <p>The problem seems straightforward from the curl output. The headers don't allow caching, so the solution involves adjusting or removing these settings.</p>
     <p>Tools Used:</p>
     <ul>
-        <li>Cloudflare Page Rules: To potentially override cache headers for specific URLs or website sections.</li>
-        <li>Server configuration files: To adjust the headers sent from your server.</li>
+        <li>Server configuration files: In order to adjust the headers sent from the server.</li>
+        <li>Cloudflare Page Rules: May be needed to override cache headers for specific URLs or website sections.</li>
     </ul>
-    <p>Please review your server's configuration to modify these headers, or we can explore using Cloudflare Page Rules
-        to alter caching behavior. Let me know how you'd like to proceed!</p>
-    <p>If any further information or assistance is needed, feel free to reach out. Our goal is to ensure your services
-        run smoothly and efficiently!</p>
+    <p>Please review your server's setup to amend these headers, or let us know if you need us to try and utilise Cloudflare Page Rules to change caching behaviour. Let us know how you prefer to proceed!</p>
+    <p>Please contact us if you require any additional information or support.</p>
     <a href="/subject4" class="cta-button">Previous</a>
     <a href="/subject6" class="cta-button">Next</a>
 

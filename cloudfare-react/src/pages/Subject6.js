@@ -7,22 +7,17 @@ const Subject6 = () => {
           <section class="hero">
     <h1>Subject 6</h1>
 
-    <h1>Response to: User Agent Redirect Request</h1>
+    <h1>User Agent Redirect Request</h1>
     <p>Dear Customer,</p>
-    <p>Thank you for reaching out with your request to redirect visitors based on the user agent. You are correct that
-        Cloudflare's standard Page Rules do not currently support redirections based on user agents directly. However,
-        you can achieve this functionality using Cloudflare Workers.</p>
+    <p>Thank you for contacting us with your request to redirect visitors depending on their user agent. Although, Cloudflare's standard Page Rules do not support user agent-based redirections, you can implement this feature with Cloudflare Workers.</p>
     <p>Thought Process:</p>
-    <p>Considering the limitation of Page Rules, I thought of Cloudflare Workers as a flexible and powerful solution
-        that allows you to run JavaScript at the edge, which can inspect incoming requests and modify responses or
-        redirects based on criteria like the user agent.</p>
+    <p>Given the limitations of Page Rules and knowing that Workers are a versatile and powerful, they may come across as a solution that allows to run JavaScript at the edge, inspecting incoming requests and modifying replies or redirection based on factors such as the user agent.</p>
     <p>Tools Used:</p>
     <ul>
-        <li>Cloudflare Workers: This tool allows you to write and deploy JavaScript that executes directly on
-            Cloudflare's edge nodes. You can write a script to check the User-Agent header of incoming requests and
-            perform a redirect if it matches a specific pattern.
+        <li>Cloudflare Workers: Allows to write and deploy JavaScript that executes directly on Cloudflare's edge nodes.
         </li>
     </ul>
+    <p>If you need help or have other questions, please don’t hesitate to ask us.</p>
     <a href="/subject5" class="cta-button">Previous</a>
     <a href="/" class="cta-button">Home</a>
 

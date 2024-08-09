@@ -5,22 +5,17 @@ const Subject4 = () => {
     return (
         <div><section class="hero">
         <h1>Subject 4</h1>
-        <h1>Response to: Cloudflare Nameservers</h1>
+        <h1>Cloudflare Nameservers</h1>
         <p>Dear Customer,</p>
-        <p>Cloudflare’s nameservers provide enhanced security and performance features tailored specifically for integrating
-            with our services like CDN, DDoS protection, and Workers. Unlike Google DNS or OpenDNS, which primarily provide
-            resolution services, Cloudflare's nameservers allow you to manage DNS alongside these benefits directly.</p>
+        <p>Cloudflare's nameservers provide additional security and performance capabilities designed for integration with our services, such as CDN, DDoS protection and so on. Unlike Google DNS and OpenDNS, which primarily provide resolution services, Cloudflare's nameservers enable you to directly manage DNS in addition to these benefits.</p>
         <p>Thought Process:</p>
-        <p>The customer needs clarity on the benefits of using Cloudflare’s nameservers over other DNS providers and whether
-            they can be integrated while keeping their current DNS provider.</p>
+        <p>The customer wants to understand the advantages of adopting Cloudflare's nameservers over other DNS providers.</p>
         <p>Tools Used:</p>
         <ul>
-            <li>Cloudflare Dashboard: To demonstrate how DNS settings are managed and how they integrate with other
-                Cloudflare services.
+            <li>Cloudflare Dashboard: Helps demonstrate how DNS settings are managed and how they integrate with other Cloudflare services.
             </li>
         </ul>
-        <p>While you can delegate your subdomain to Cloudflare's nameservers, using Cloudflare as your primary DNS provider
-            is generally recommended to fully utilize all the services and features we offer.</p>
+        <p>While you can delegate your subdomain to Cloudflare's nameservers, it is typically advised that you use Cloudflare as your primary DNS provider to take full advantage of all of our services and capabilities.</p>
         <a href="/subject3" class="cta-button">Previous</a>
         <a href="/subject5" class="cta-button">Next</a>
     

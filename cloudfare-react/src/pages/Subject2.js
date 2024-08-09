@@ -6,28 +6,21 @@ const Subject2 = () => {
         <div>
 <section class="hero">
     <h1>Subject 2</h1>
-    <h1>Response to: Why is my site coming from California?!</h1>
+    <h1>Why is my site coming from California?!</h1>
     <p>Dear Customer,</p>
-    <p>Thank you for your query regarding the geographical sourcing of your website's content. Cloudflare operates on an
-        Anycast network, which means that your website is served from multiple data centers around the world. While you
-        are in London, the IP address you see might be registered in California, which is typical since many of our IP
-        addresses are US-registered.</p>
+    <p>Thank you for your inquiry about the geographical source of your website's content. Cloudflare uses the Anycast network, which means that your website is served from various data centres around the world. Although you are in London, it is common to see the IP address registered in California (or other locations) as many of our IP addresses are registered in the US. This allows requests to your website to be routed to the nearest data center in terms of Internet topology, not necessarily geographic distance which means that even if an IP address appears to be located in California as you stated, it doesn't necessarily mean that the content is being served from there.</p>
     <p>Thought Process:</p>
-    <p>I considered the possibility of a localized issue affecting DNS resolution or propagation delays which might be
-        causing the website to be inaccessible from different networks. My plan is to review the DNS configuration in
-        your Cloudflare account to ensure all settings are correct and to check if the DNS records are fully
-        propagated.</p>
+    <p>Recognising that Cloudflare employs Anycast technology is critical. Understanding it helps to understand why the consumer may notice their site being delivered from an IP address registered in California.
+
+    Understanding that IP addresses are frequently registered to the company's headquarters, which in this case is in California, explains why the IP address may not correspond to the physical location of the data centre hosting the content.
+
+</p>
     <p>Tools Used:</p>
     <ul>
-        <li>Cloudflare Analytics: This would help to show from which data centers your website's traffic is being
-            served, confirming that local data centers are being utilized.
-        </li>
-        <li>Geolocation tools: To explain how IP geolocation might not always reflect the actual physical serving
-            location due to the nature of IP address registration.
+        <li>Cloudflare Analytics: This would help to show from which data centers the website's traffic is being served, confirming that local data centers are being utilized.
         </li>
     </ul>
-    <p>I hope this clarifies your concerns. If you need more detailed information on how traffic is routed for your
-        site, I'm here to help!</p>
+    <p>I hope this has addressed your worries. If you need more information on how traffic is routed to your website, we are here to help!</p>
     <a href="/subject1" class="cta-button">Previous</a>
     <a href="/subject3" class="cta-button">Next</a>
 

@@ -6,7 +6,7 @@ const Subject1 = () => {
         <div>
          <section class="hero">
     <h1>Subject 1</h1>
-    <h1>Response to: Site Down, Your Name Servers Are Down</h1>
+    <h1>Site Down, Your Name Servers Are Down</h1>
     <p>Dear Customer,</p>
 
     <p>Thank you for contacting us about your issue. I checked the status of our nameservers and they are working, with no reported outages. Nonetheless, in order to resolve your specific issue, I will examine your DNS settings to determine if there are any misconfigurations or propagation delays.</p>

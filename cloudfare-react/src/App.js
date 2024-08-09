@@ -7,6 +7,7 @@ import Subject3 from './pages/Subject3';
 import Subject4 from './pages/Subject4';
 import Subject5 from './pages/Subject5';
 import Subject6 from './pages/Subject6';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="App">
         <Base>
           <Routes>
-            <Route path="/" element={<div>Welcome to my Take Home Test</div>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/subject1" element={<Subject1 />} />
             <Route path="/subject2" element={<Subject2 />} />
             <Route path="/subject3" element={<Subject3 />} />

@@ -6,7 +6,7 @@ const Home = () => {
         <div><section class="hero">
         <h1>Welcome to my Take Home Test</h1>
         <p>Here are my answers to the proposed questions.</p>
-        <p>Framework: Python Django</p>
+        <p>Framework: React JavaScript</p>
         <a href="/subject1" class="cta-button">Start</a>
     </section>
     

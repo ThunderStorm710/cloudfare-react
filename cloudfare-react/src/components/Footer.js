@@ -5,7 +5,7 @@ import '../style/Index.css'; // Arquivo CSS correspondente
 const Footer = () => {
     return (
         <footer>
-            <p>&copy; 2024 MinhaMarca. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Take Home Test.</p>
         </footer>
     );
 };
